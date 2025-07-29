@@ -5,9 +5,13 @@ import Footer from "./Footer";
 
 const HomePage = () => {
   return (
-    <>
-      <Navbar></Navbar> <Outlet /> <Footer />
-    </>
+    <div className="app-container">
+      <Navbar></Navbar>
+      <div className="main-container">
+        <Outlet />
+      </div>
+      <Footer />
+    </div>
   );
 };
 

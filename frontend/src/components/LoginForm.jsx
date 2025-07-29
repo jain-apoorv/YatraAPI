@@ -34,7 +34,8 @@ const LoginForm = () => {
   }, [token, user, navigate]);
 
   return (
-    <div className="container-fluid d-flex justify-content-center align-items-center vh-100">
+    // <div className="container-fluid d-flex justify-content-center align-items-center vh-100">
+    <div className="container py-5">
       <div className="col-md-6 col-lg-4 mx-auto">
         <form onSubmit={handleSubmit}>
           <div
